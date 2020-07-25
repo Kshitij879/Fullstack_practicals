@@ -1,0 +1,11 @@
+body {
+    background-color: lightgray;
+  }
+  img.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img[usemap],map area{
+    outline: none;
+  }
