@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 6</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: lightgray;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 33px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+      .container {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .box {
+        color: black;
+        border-radius: 10px;
+        float: left;
+        width: 290px;
+        height: 420px;
+        margin: 20px;
+        background-color: white;
+      }
+      .box:hover {
+        background-color: black;
+        color: white;
+      }
+
+      .boxImage img {
+        width: 100%;
+        border-radius: 10px;
+        height: 150px;
+      }
+      .boxImage {
+        padding: 20px;
+      }
+
+      .title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .title h3 {
+        text-align: center;
+        width: 100%;
+      }
+
+      .intro {
+        text-align: justify;
+        padding: 10px;
+        margin: 5px;
+        line-height: 20px;
+        font-family: serif;
+      }
+      .intro .button a {
+        background-color: rgb(82, 136, 185);
+        display: block;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .button a:hover {
+        background-color: palevioletred;
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      PRACTICAL 6 :CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.
+    </h1>
+    <div class="container">
+      <div class="box">
+        <div class="boxImage">
+          <img src="../../images/html.jpg" alt="html introduction" />
+        </div>
+        <div class="title">
+          <h3>Introduction to HTML</h3>
+        </div>
+        <div class="intro">
+          Hypertext Markup Language (HTML) is the standard markup language for
+          documents designed to be displayed in a web browser. It can be
+          assisted by technologies such as CSS and scripting languages such as
+          JS.
+          <div class="button">
+            <a href="../Practical 5/html.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxImage">
+          <img src="../../images/css-c.jpg" alt="css intro" />
+        </div>
+        <div class="title">
+          <h3>Introduction to CSS</h3>
+        </div>
+        <div class="intro">
+          Cascading Style Sheets (CSS) is a style sheet language used for
+          describing the presentation of a document written in a markup language
+          like HTML. CSS is a cornerstone technology of the World wide web.
+          <br />
+          <div class="button">
+            <a href="../Practical 5/css.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxImage">
+          <img src="../../images/js.jpg" alt="javascript intro" />
+        </div>
+        <div class="title">
+          <h3>Introduction to Javascript</h3>
+        </div>
+        <div class="intro">
+          JavaScript, often reffered as JS, is a high-level programming language. It was originally
+          designed as a scripting language for websites but became widely
+          adopted as a general-purpose programming language.
+          <div class="button">
+            <a href="../Practical 5/javascript.html" target="_blank"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxImage">
+          <img src="../../images/boot.jpg" alt="bootstrap intro" />
+        </div>
+        <div class="title">
+          <h3>Introduction to Bootstrap</h3>
+        </div>
+        <div class="intro">
+          Bootstrap is a free and open-source CSS framework directed at
+          responsive, mobile-first front-end web development. It contains CSS-
+          and (optionally) JavaScript-based design templates
+          <div class="button">
+            <a href="../Practical 5/bootstrap.html" target="_blank"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
