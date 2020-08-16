@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-8</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      .container {
+        border:0px solid ;
+        padding: 15px;
+        width: 1310px;
+        margin: 0px auto;
+      }
+      .header {
+        background-color: rgb(128, 128, 128);
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: monospace;
+        margin-bottom: 20px;
+      }
+      .navbar{
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+      .navbar li{
+        list-style: none;
+        display: inline-block;
+      }    
+      .navbar li a{
+        text-decoration: none; 
+        color: white;
+        display: block;
+        padding: 10px 30px;
+        text-align: center;
+        font-family: sans-serif,Arial, Helvetica;
+      }
+      .navbar li a:hover{
+        background-color: white;
+        color: black;
+        transition:0.5s;
+      }
+      .banner {
+        background-color: rgb(147, 182, 247);
+        width: 100%;
+        height: 700px;
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+      }
+      .banner img{
+        width: 100%;
+        height:700px ;
+      }
+      .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: bold;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      #content {
+      }
+      #content::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+      .box {
+        width: 260px;
+        height: 390px;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color:lightgray;
+        float: left;
+      }
+      .box:hover {
+        background-color: black;
+        color: white;
+      }
+      .box img{
+        width: 100%;
+        height: 150px;
+      }
+      .title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .title h3 {
+        text-align: center;
+        width: 100%;
+      }
+      .footer {
+        background-color: rgb(211, 66, 211);
+        width: 100%;
+        height: 100px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: monospace;
+      }
+      #circle img{
+        width: 260px;
+        height: 260px;
+        border-radius: 130px;
+        margin-left: 22px;
+        margin-right: 22px;
+        background-color: rgb(226, 152, 13);
+        float: left;
+      }
+      #left-sidebar {
+        width: 49.2%;
+        height: 580px;
+        background-color: gray;
+        float: left;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: monospace;
+      }
+      #right-sidebar {
+        width: 49.2%;
+        height: 560px;
+        float: right;
+      }
+      #Article {
+        width: 100%;
+        height: 180px;
+        background-color: darksalmon;
+        margin-bottom: 20px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <ul class = "navbar">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#technologies">TECHNOLOGS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="banner" id="home">
+        <div style="padding: 15px; font-size: 60px;">
+          PRACTICAL - 8
+        </div>
+      </div>
+      <div class="section" id="team">Team Members</div>
+      <div id="content" style="padding-left:55px; padding-right: 30px;">
+        <div id="circle">
+          <img src="../../images/Practical 8/1.png" alt="Member 1">
+        </div>
+        <div id="circle">
+          <img src="../../images/Practical 8/2.png" alt="Member 2">
+        </div>
+        <div id="circle">
+          <img src="../../images/Practical 8/3.png" alt="Member 3">
+        </div>
+        <div id="circle">
+          <img src="../../images/Practical 8/4.png" alt="Member 4">
+        </div>
+      </div>
+      <div class="section" id="about">Section-2</div>
+      <div class="content">
+        <div id="left-sidebar">Main Content</div>
+        <div id="right-sidebar">
+          <div id="Article">Article-1</div>
+          <div id="Article">Article-2</div>
+          <div id="Article">Article-3</div>
+        </div>
+      </div>
+      <div class="section" id="technologies">Section-3</div>
+      <div class="content" style="padding-left: 40px; padding-right: 10px;">
+        <div class="box">  
+          <img src="../../images/html.jpg" alt="html intro">
+          <div class="title">
+            <h3>Introduction to HTML</h3>
+          </div>
+         </div>
+        <div class="box">
+          <img src="../../images/css-c.jpg" alt="css intro">
+        <div class="title">
+          <h3>Introduction to CSS</h3>
+        </div>
+        </div>
+        <div class="box">
+          <img src="../../images/js.jpg" alt="js intro">
+          <div class="title">
+            <h3>Introduction to JavaScript</h3>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../../images/boot.jpg" alt="bootstrap intro">
+          <div class="title">
+            <h3>Introduction to bootstrap</h3>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="contact">Contact</div>
+      <div class="footer">Footer
+        <a href="#">back to top</a>
+      </div>
+    </div>
+  </body>
+</html>
