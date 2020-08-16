@@ -38,6 +38,7 @@
         color: white;
         font-family: monospace;
         margin-bottom: 20px;
+        border: 1px solid black;
       }
       .navbar {
         padding: 0px;
@@ -68,6 +69,7 @@
         color: white;
         font-family: sans-serif;
         position: relative;
+        border: 1px solid black;
 
       }
       .banner img {
@@ -111,9 +113,10 @@
         height: 390px;
         margin-left: 25px;
         margin-right: 25px;
-        background-color: lightgray;
+        background-color: white;
         float: left;
-        border: 0px solid;
+        border: 1px solid black;
+        position: relative;
       }
       .box:hover {
         background-color: black;
@@ -122,6 +125,7 @@
       .box img {
         width: 100%;
         height: 150px;
+        border-bottom:1px solid black;
       }
       .title {
         margin-top: 5px;
@@ -132,7 +136,7 @@
         width: 100%;
       }
       .intro {
-        height: 137px;
+        height: 130px;
         text-align: justify;
         padding: 10px;
         margin: 5px;
@@ -146,9 +150,13 @@
         text-decoration: none;
         color: white;
         height: auto;
+        width: 240px;
         padding: 10px;
         text-align: center;
         margin-top: 10px;
+        position:absolute;
+        bottom: 0;
+        border-top: 1px solid black;
       }
       .button a:hover {
         background-color: palevioletred;
@@ -164,6 +172,7 @@
         align-items: center;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
       }
       #circle img {
         width: 260px;
@@ -173,25 +182,32 @@
         margin-right: 22px;
         background-color: rgb(226, 152, 13);
         float: left;
+        border: 1px solid black;
       }
       #left-sidebar {
-        width: 49%;
-        height: 530px;
+        width: 48%;
+        height: 556px;
         text-align: justify;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    font-size: 30px;
+        padding-left: 10px;
+        padding-right:10px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        font-size: 30px;
         background-color: gray;
         float: left;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
+  
       }
       #right-sidebar {
-        width: 49%;
+        width: 48%;
         height: 550px;
         float: right;
+      
+        margin-right: 10px;
+      
       }
       #Article {
         width: 100%;
@@ -204,6 +220,7 @@
         position: relative;
         border: 0px solid;
         overflow: hidden;
+        border: 1px solid black;
       }
     </style>
   </head>
@@ -214,7 +231,7 @@
           <li><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT US</a></li>
           <li><a href="#team">TEAM</a></li>
-          <li><a href="#technologies">TECHNOLOGS</a></li>
+          <li><a href="#technologies">TECHNOLOGIES</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
@@ -245,7 +262,11 @@
           <div id="left-sidebar">
             <h1>About Project</h1><br>
             <p>
-Our main motive is to learn fullstack development. We started learning full stack development by learning front end development first. Here we are performing many practicals and making prjoects to enhance our learning.This website is also a part of the leaarning phase. Till now we have completed 7 practicals and this is the 8th one
+              Our main motive is to learn fullstack development. 
+              We started learning full stack development by learning front end development first.
+              Here we are performing many practicals and making prjoects to enhance our learning.
+              This website is also a part of the leaarning phase.
+              Till now we have completed 7 practicals and this is the 8th one.
             </p>
           </div>
           <div id="right-sidebar">
